@@ -2,7 +2,7 @@
 
 namespace Biblioteca.Communication.Requests;
 
-public class RequestRegisterBookJson
+public class RequestBookJson
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;

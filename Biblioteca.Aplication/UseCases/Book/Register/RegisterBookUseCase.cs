@@ -5,7 +5,7 @@ namespace Biblioteca.Aplication.UseCases.Book.Register;
 
 public class RegisterBookUseCase
 {
-    public ResponseRegisteredBookJson Execute(RequestRegisterBookJson request)
+    public ResponseRegisteredBookJson Execute(RequestBookJson request)
     {
         return new ResponseRegisteredBookJson
         {
